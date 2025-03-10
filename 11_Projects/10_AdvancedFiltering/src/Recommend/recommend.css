@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+#recommendBar{
+    padding: 1rem 1rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background: #000;
+    color: #fff;
+}
+.title{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.btn{
+    padding: 0.3rem 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background: #323131;
+    color: #ccffaa;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #000;
+    box-shadow: 1px 1px 16px #ccffaa;
+    transition: 200ms ease-in-out;
+}
